@@ -45,7 +45,7 @@ nav{
   width: 35vw;
   justify-content: space-around;
 }
-a{
+nav > a{
   text-decoration: none;
   color: black;
   font-family: sans-serif;
@@ -192,7 +192,8 @@ iframe{
 .product > ol{
   padding: 15px 0;
 }
-.product > button{
+.product button{
+  display: inline-block;
   background-color: #f1c40f;
   font-weight: 400;
   border: 0;
@@ -202,8 +203,10 @@ iframe{
   margin: 15px 0;
   text-transform: uppercase;
   cursor: pointer;
+  text-decoration: none;
 }
-.product> button:hover{
+
+.btn:hover{
   background-color: darkorange;
   transition: background-color 1s;
 }
