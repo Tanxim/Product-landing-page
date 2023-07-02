@@ -1,6 +1,6 @@
 *{
   box-sizing: border-box;
-  border: 0px solid black;
+  border: 1px solid black;
   margin: 0;
   padding: 0;
   scroll-behavior: smooth;
@@ -217,12 +217,9 @@ footer{
   background-color: #ddd;
   margin-top: 30px;
   padding: 20px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  text-align: center;
 }
 footer > span{
-  display: inline-block;
   margin-top: 5px;
   font-size: 0.9em;
   color: #444;
