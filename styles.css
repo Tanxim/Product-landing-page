@@ -103,6 +103,20 @@ form{
   justify-content: center;
   color: darkorange;
 }
+/*.test:not(:hover){
+  .toggle{
+    animation: none;
+  }
+}*/
+.grid:not(:hover) .fa-fire {
+  animation: none;
+}
+.grid:not(:hover) .fa-truck {
+  animation: none;
+}
+.grid:not(:hover) .fa-battery-full {
+  animation: none;
+}
 .disc{
   display: flex;
   flex-direction: column;
@@ -192,10 +206,7 @@ iframe{
 .product > ol{
   padding: 15px 0;
 }
-.product a{
-  margin: 15px 0;
-}
-.product button{
+.product .btn{
   display: inline-block;
   background-color: #f1c40f;
   font-weight: 400;
@@ -203,7 +214,7 @@ iframe{
   height: 40px;
   width: 100px;
   font-size: 1em;
-  margin: 0;
+  margin: 15px 0;
   text-transform: uppercase;
   cursor: pointer;
   text-decoration: none;
